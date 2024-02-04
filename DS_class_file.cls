@@ -50,7 +50,7 @@
 \definecolor{sidecolor}{HTML}{FBFCE1}
 \definecolor{mainblue}{HTML}{0E5484}
 %\definecolor{maingray}{HTML}{B9B9B9}
-\definecolor{mainpurple}{HTML}{ffc107}
+\definecolor{mainyellow}{HTML}{ffc107}
 \definecolor{maingray}{HTML}{85929E}
 
 \definecolor{pblue}{HTML}{0395DE}
@@ -140,7 +140,7 @@
 
 
 % Command for printing the contact information icons
-\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainpurple,mainpurple,text=white] (char) {#1};}}
+\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainyellow,mainyellow,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
 \newcommand\programming[1]{ 
@@ -148,7 +148,7 @@
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainpurple](0,\i) rectangle (\y,\i+0.4);
+				\draw[fill=white,mainyellow](0,\i) rectangle (\y,\i+0.4);
 				\node [above right] at (0,\i+0.35) {\x};
 			}
 		\end{tikzpicture}
@@ -160,7 +160,7 @@
 		\begin{tikzpicture}
 		\foreach [count=\i] \x/\y in {#1}{
 			\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-			\draw[fill=white,mainpurple](0,\i) rectangle (\y,\i+0.4);
+			\draw[fill=white,mainyellow](0,\i) rectangle (\y,\i+0.4);
 			\node [above right] at (0,\i+0.35) {\x};
 		}
 		\end{tikzpicture}
@@ -195,9 +195,9 @@
 		%------------------------------------------------
 		
 		\vspace{2mm}
-		{\Huge\color{mainpurple}\hspace{5mm}\cvname}
+		{\Huge\color{mainyellow}\hspace{5mm}\cvname}
 		\vspace{1mm}
-		{\Huge\color{mainpurple}\hspace{5mm}\cvsurname}
+		{\Huge\color{mainyellow}\hspace{5mm}\cvsurname}
 		
 		\vspace{1mm}
 		
@@ -308,7 +308,7 @@
 
 \def\@sectioncolor#1#2#3{%
 	{%
-		\color{mainpurple} #1#2#3%
+		\color{mainyellow} #1#2#3%
 	}%
 }
 
