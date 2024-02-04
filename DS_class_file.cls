@@ -47,10 +47,10 @@
 
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{sidecolor}{HTML}{E7E7E7}
+\definecolor{sidecolor}{HTML}{FBFCE1}
 \definecolor{mainblue}{HTML}{0E5484}
 %\definecolor{maingray}{HTML}{B9B9B9}
-\definecolor{mainpurple}{HTML}{884EA0}
+\definecolor{mainpurple}{HTML}{ffc107}
 \definecolor{maingray}{HTML}{85929E}
 
 \definecolor{pblue}{HTML}{0395DE}
@@ -187,7 +187,7 @@
 	\begin{textblock}{6}(0.55, 0.2)
 		%Yeni------------------------------------------------
 		\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-		\clip (600/2, 567/2) circle (567/2);
+		\clip (600/2, 660/2) circle (567/2);
 		
 		\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
 		\end{tikzpicture}
@@ -221,7 +221,7 @@
       \ifthenelse{\equal{\cvsite}{}}{}{
             {$
               \begin{array}{l}
-              \hspace{-2.5mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
+              \hspace{-2.5mm} \huge \textnormal{\textcolor{test}{\faMapMarker}}
               \end{array}
               $}
             & \cvsite\\}
@@ -229,7 +229,7 @@
       \ifthenelse{\equal{\cvwebsite}{}}{}{
             {$
               \begin{array}{l}
-              \hspace{-2.5mm} \huge \textnormal{\textcolor{test}{\faInternetExplorer}}
+              \hspace{-2.5mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
               \end{array}
               $}
             % fo
@@ -262,7 +262,7 @@
     \vspace{0.5cm}
     
     % about me text
-    \profilesection{\color{headercolor}\hspace{5mm}About me}{0.0cm}
+    \profilesection{\color{headercolor}\hspace{1mm}About me}{0.0cm}
     
     \vspace{1.0mm}
     
@@ -429,7 +429,7 @@
 
 \vspace{0.7cm}
 
-\profilesection{\color{headercolor}ML Libraries}{0.0cm}
+\profilesection{\color{headercolor}Interests}{0.0cm}
 
 \mllibs
 
@@ -441,9 +441,9 @@
 
 \vspace{0.7cm}
 
-\profilesection{\color{headercolor}Python Libraries}{0.0cm}
+% \profilesection{\color{headercolor}Python Libraries}{0.0cm}
 
-\pythonlibs
+% \pythonlibs
 
 \vspace{0.7cm}
 
