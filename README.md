@@ -2,9 +2,7 @@
 
 20 Seconds CV for data scientists. 2 pages. It includes a photo in its sidebar.
 
-![plot](./resume_with_photo_ss1.png)
-
-![plot](./resume_with_photo_ss2.png)
+![plot](./SowmyaYellapragada-Resume.pdf)
 
 # References
 
