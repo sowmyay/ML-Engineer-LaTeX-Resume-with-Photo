@@ -5,7 +5,7 @@
 
 # References
 
-1) https://github.com/opensorceror/Data-Engineer-Resume-LaTeX
+1) https://github.com/MuhammedBuyukkinaci/Data-Scientist-LaTeX-Resume-with-Photo
 2) https://github.com/opensorceror/Data-Engineer-Resume-LaTeX
 3) https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
 
