@@ -1,8 +1,7 @@
 # Sowmya Yellapragada Resume
 <object src="SowmyaYellapragada-Resume.pdf" type="application/pdf" title="Resume" width="500" height="720">
-    <a href="SowmyaYellapragada-Resume.pdf">shree</a> 
+    <a href="SowmyaYellapragada-Resume.pdf">Resume</a> 
 </object>
-![Resume](./SowmyaYellapragada-Resume.pdf)
 
 # References
 
