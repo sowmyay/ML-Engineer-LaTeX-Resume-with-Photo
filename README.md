@@ -1,20 +1,16 @@
-# Data-Scientist-LaTeX-Resume-with-Photo
-
-20 Seconds CV for data scientists. 2 pages. It includes a photo in its sidebar.
-
-![plot](./SowmyaYellapragada-Resume.pdf)
+# Sowmya Yellapragada Resume
+<object src="SowmyaYellapragada-Resume.pdf" type="application/pdf" title="Resume" width="500" height="720">
+    <a href="SowmyaYellapragada-Resume.pdf">shree</a> 
+</object>
+![Resume](./SowmyaYellapragada-Resume.pdf)
 
 # References
 
 1) https://github.com/opensorceror/Data-Engineer-Resume-LaTeX
+2) https://github.com/opensorceror/Data-Engineer-Resume-LaTeX
+3) https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
 
-2) https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
-
-# Pricing
-
-This project is open-source & free. If you have no experience about coding and liked this template, I can make a resume in this type for some amount of money. If you prefer this, just leave a comment in _Issues_.
-
-# Installation
-
-I highly recommend using [overleaf](https://overleaf.com) to compile the code. It requires a sign up. You should choose LuaLateX to compile the code.
-
+# Making updates
+Use [overleaf](https://www.overleaf.com/project/65bfe5542b70d056a87783b6) project to make updates.
+To push changes to git. Menu -> Git -> Push commits
+You should choose LuaLateX to compile the code.
